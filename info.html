@@ -10,15 +10,20 @@
 <body>
 
     <header>
-        <nav>
-            <div>THE LOGO</div>
-            <ul>
-                <li>Overview</li>
-                <li>One-on-One</li>
-                <li>Testimonials</li>
-                <li>More</li>
-                <button>MAIN CTA BUTTON</button>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand bg-dark p-3 m-3 text-light" href="index.html">THE LOGO</a>
+            <button type="button" class="navbar-toggler p-3 m-3" data-bs-toggle="collapse" data-bs-target="#navMenuInfo">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navMenuInfo" class="collapse navbar-collapse me-auto">
+                <ul class="navbar-nav ms-auto p-3">
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">Overview</a></li>
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">One-on-One</a></li>
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">More</a></li>
+                    <button class="m-2 p-2 bg-danger nav-item border rounded-pill h-25"><a class="text-light text-decoration-none" href="#">MAIN CTA BUTTON</a></button>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -119,5 +124,7 @@
         <p>FOOTER MATERIAL</p>
     </footer>
     
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
+
 </body>
 </html>

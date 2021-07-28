@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <title>HOME</title>
 </head>
-<body>
+<body class="bg-light">
 
     <header>
-        <nav>
-            <div>THE LOGO</div>
-            <ul>
-                <li>SUPPORT</li>
-                <li>LOGIN</li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand bg-dark p-3 m-3 text-light" href="index.html">THE LOGO</a>
+            <button type="button" class="navbar-toggler p-3 m-3" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navMenu" class="collapse navbar-collapse me-auto">
+                <ul class="navbar-nav ms-auto">
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">SUPPORT</a></li>
+                    <li class="m-1 p-2 nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -39,6 +44,7 @@
 
         </div>   
     </main>
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
